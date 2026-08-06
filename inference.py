@@ -1,5 +1,4 @@
-# Generated on 2026-08-04T21:32:47.354988
+# Generated on 2026-08-06T20:13:32.554133
 
-def augment_data(data):
-    # TODO: Implement complex augmentations
-    return [d + ' augmented' for d in data]
+def preprocess_text(text):
+    return text.lower().strip()
